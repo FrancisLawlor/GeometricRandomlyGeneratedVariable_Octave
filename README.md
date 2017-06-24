@@ -1,6 +1,6 @@
 # Randomly Generated Variable with Geometric Distribution.
-	
-![CDFVsPMF](CDFVsPMF.png)
+
+![DisplayImage](DisplayImage.png)
 
 Example of the utilization of the [Inverse Transform Sampling method](https://en.wikipedia.org/wiki/Inverse_transform_sampling) for generating a random variable with a geometric distribution.
 
