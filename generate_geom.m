@@ -1,6 +1,5 @@
-function x = generate_geom(p,m)
+function x = generate_geom(p, m)
 % GENERATE_GEOM - generate_geom(p) outcomes m times 
-%   
 
 u = rand(1, m);                               % 1 x m vector of uniform pseudorandom numbers between 0 and 1
 
@@ -10,7 +9,6 @@ x = floor(log(u) / log(1 - p));               % invert CDF
 
 close all;                                    % close all previous plots
 
-% dx = (b - a)/(m / 50);
 a = 1;
 b = 200;   
 dx = (b - a) / (m / 50);                      % discretization step (dx)
